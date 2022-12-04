@@ -3,12 +3,21 @@
     background-color: white ;
 }
 
-h1{
+h1, h2{
     color:black;
+    
+
+}
+
+h1{
     margin-left: 25px;
     margin-top:25px;
 }
 
+h2{
+    margin-left:15px;
+    margin-top:15px;
+}
 
 .colorbox{
     border: solid 2px black ;
