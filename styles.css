@@ -79,95 +79,58 @@ section {
     display: inline-block;
 }
 
-.purple{
+.purple, .purple p{
     background-color: #6008B9;
-    
-}
-
-.purple p{
     color:white;
 }
 
-.blue{
+.blue, .blue p{
     background-color:#98A0EF;
 }
 
-.blue p{
-    background-color:#98A0EF;
-}
-
-.green{
+.green, .green p{
     background-color: #2F7F2D;
 }
 
-.green p{
-    background-color: #2F7F2D; 
-}
-
-.red{
-    background-color: #C45D5D;
-}
-
-.red p{
+.red, .red p{
     background-color: #C45D5D;
 }
 
 /* Box to display the fonts that will be used*/
 
-.font-kdam-thor-pro{
+.font-inline{
     display:inline-block;
     margin-left: 20px;
 }
 
-.font-kdam-thor-pro p, {
-    font-family: "Kdam Thor Pro";
-    font-size: large;
-}
-
-.font-kdam-thor-pro ul{
-    font-size: 18px;
-    font-weight: 500;
-}
-
-.kdam-thor-pro-header{
-    font-family: "Kdam Thor Pro";
+.kdam-thor-pro{
+    font-family: 'Kdam Thor Pro';
 }
 
 .zen-dots{
-    display:inline-block;
-    margin-left: 20px;
-}
-
-.zen-dots p, .zen-dots li{
     font-family: "Zen Dots";
-    font-size:large;
-}
-
-.zen-dots-header{
-    font-family: "Zen Dots";
-    font-size:26px;
-    font-weight: 700 bold;
-
 }
 
 .trebuchet-ms{
-    display:inline-block;
-    margin-left: 20px;
-}
-
-.trebuchet-ms p{
     font-family: 'Trebuchet MS';
-    font-size:large;
 }
 
-.trebuchet-ms-header{
-    font-family: "Trebuchet-MS";
+h1.zen-dots, h1.kdam-thor-pro, h1.trebuchet-ms{
     font-size:26px;
     font-weight: 700 bold;
 }
 
-.font-trebuchet-ms ul{
-    font-family: "Trebuchet-MS";
+h2.kdam-thor-pro {
+    font-size:24px;
+    font-weight: 500;
+}
+
+.zen-dots p, 
+.zen-dots li, 
+.kdam-thor-pro p, 
+.kdam-thor-pro li, 
+.trebuchet-ms p, 
+.trebuchet-ms li {
     font-size:16px;
     font-weight: 400;
 }
@@ -176,8 +139,3 @@ section {
     text-decoration: underline;
 }
 
-.why-no-format{
-    font-family: "Kdam Thor Pro";
-    font-weight: 500;
-    font-size: 18px;
-}
